@@ -7,3 +7,6 @@ $application = new Application();
 $application->add(new \App\Message());
 $application->add(new \App\UserInfo());
 $application->run();
+$application->add(new \App\SayHello());
+$application->run();
+
