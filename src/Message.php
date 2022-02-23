@@ -19,7 +19,7 @@ class Message extends Command
             ->setName('message')
             ->setDescription('')
             ;
-    }
+    } 
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
