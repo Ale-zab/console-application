@@ -5,4 +5,5 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'a
 use Symfony\Component\Console\Application;
 $application = new Application();
 $application->add(new \App\Message());
+$application->add(new \App\UserInfo());
 $application->run();
