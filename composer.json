@@ -1,0 +1,22 @@
+{
+    "name": "alezab/people",
+    "autoload": {
+        "psr-4": {
+            "Alezab\\People\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksey Zabolotnikov",
+            "email": "ale-zab@yandex.ru"
+        }
+    ],
+    "require": {
+        "symfony/console": "^5.4"
+    },
+    "autoload": {
+	"psr-4": {
+	  "App\\": ["src"]
+	}
+    }
+}
